@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "iVelt Helper",
   "description": "Adds accessibility and usability improvements to אייוועלט.",
-  "version": "1.9.8",
+  "version": "1.9.10",
   "icons": {
     "48": "img/icon48.png",
     "128": "img/icon128.png"
@@ -15,7 +15,7 @@
         "*://*.yiddishworld.com/*",
         "*://*.198.153.76.147/*"
       ],
-      "js": ["js/contentScript.js", "js/settingsHandler.js"]
+      "js": ["js/contentScript.js","js/refreshNotificationCount.js", "js/settingsHandler.js"]
     }
   ],
   "background": {
